@@ -109,7 +109,7 @@ user@host$ ./scraper.py
 
 * Opcija `-p` ili `--providers` uz dodatno navedenu listu provajdera, moguće navesti nekoliko željenih provajdera a koji su prije toga setovani u `config.py`. Potom skripta pokušava dohvatiti samo te provajdere. Lista mogućih provajdera za sada je: `['bht', 'epbih', 'lol', 'sagas', 'tsa', 'vik']`  
   
-* Opcija `-f` uz opcije `['json', 'table']` formatira ispis u json ili tabelu.  
+* Opcija `-f` ili `--format` uz opcije `['json', 'table']` formatira ispis u json ili tabelu.  
   
 ##### PRIMJERI:
 
