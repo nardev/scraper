@@ -11,7 +11,7 @@ Scraper dohvaća podataka o vašim troškovima sa web stranica javnih i privatni
 
 ## PROVIDERS
 ---
-> Ovo je bezvezan naziv za firme. Da bi uspješno dobili potrebne podatke koji su vam potrebni za ovu skriptu, slijedite naredne savjete. Takođe, u `config.py` fajlu je moguće dobiti dodatne opise za podatke.
+Ovo je bezvezan naziv za firme. Da bi uspješno dobili potrebne podatke koji su vam potrebni za ovu skriptu, slijedite naredne savjete. Takođe, u `config.py` fajlu je moguće dobiti dodatne opise za podatke.
 
 #### BH TELECOM
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/bht.jpg" align="right" />  
