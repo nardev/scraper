@@ -1,4 +1,4 @@
-# scraper
+# SCRAPER
 Scraper za dohvacanje podataka o vasim troskovima sa web stranica javnih i privatnih preduzeca u Kantonu Sarajevo.
 
 
@@ -6,10 +6,9 @@ Scraper za dohvacanje podataka o vasim troskovima sa web stranica javnih i priva
 
 
 ## Scraper README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](nardev.org)
-
-	Za potrebe prikaza u Home Assistant-u, napravio sam nekoliko modula koji uz adekvatno konfigurisanje mogu jednostavno da dohvate stanje dugovanja, uplata a nekada i trenutne potrosnje za usluge. Moguce da se codjeno ovim primjerima skripti iz "providers/" moze napraviti i jos poneka skripta. Firme koje su meni bilo ptorebne su vec tu. Predpostavljam da bi u Kantonu Sarajevo odgovaralo da tu bude jos i OKI i recimo Sarajevo Stan ali oni jednostavno nemaju pregled dugovanja online. Takodje, za sada nisam uspio bolje pogledati web sajt telemach-a kao ni BH Telecom usluge za MojuTV, Fiksni Telefon i ADSL prikljucak. Za sada uspjesno "skrejpamo" samo BH Telecom mobilnu.  
-	Manje vise sve firme imaju potpuno drugaciji prikaz tako se nisam ni trudio da skripta vrati neki ispis koji je logicniji. Naprimjer VIK ako ste u pretplati, stavi vam "-" minus ispred cifre dugovanja. Ili recimo Toplane Sarajevo stave neke napomene u polje gdje se nalazi tekst za stanje pa takve stvari nisam brisao. Potom, neke firme kao Logosoft, na stanje vam stave odmah i troskove cijelog trenutnog mjeseca. Tako da ste po prikazu zapravo u minusu stalno.  
-	Smatram da ako ste se jednom ulogovali, znat ce te sta je smisao tog prikaza.
+Za potrebe prikaza u Home Assistant-u, napravio sam nekoliko modula koji uz adekvatno konfigurisanje mogu jednostavno da dohvate stanje dugovanja, uplata a nekada i trenutne potrosnje za usluge. Moguce da se codjeno ovim primjerima skripti iz "providers/" moze napraviti i jos poneka skripta. Firme koje su meni bilo ptorebne su vec tu. Predpostavljam da bi u Kantonu Sarajevo odgovaralo da tu bude jos i OKI i recimo Sarajevo Stan ali oni jednostavno nemaju pregled dugovanja online. Takodje, za sada nisam uspio bolje pogledati web sajt telemach-a kao ni BH Telecom usluge za MojuTV, Fiksni Telefon i ADSL prikljucak. Za sada uspjesno "skrejpamo" samo BH Telecom mobilnu.  
+Manje vise sve firme imaju potpuno drugaciji prikaz tako se nisam ni trudio da skripta vrati neki ispis koji je logicniji. Naprimjer VIK ako ste u pretplati, stavi vam "-" minus ispred cifre dugovanja. Ili recimo Toplane Sarajevo stave neke napomene u polje gdje se nalazi tekst za stanje pa takve stvari nisam brisao. Potom, neke firme kao Logosoft, na stanje vam stave odmah i troskove cijelog trenutnog mjeseca. Tako da ste po prikazu zapravo u minusu stalno.  
+Smatram da ako ste se jednom ulogovali, znat ce te sta je smisao tog prikaza.
 
 
 ## Providers
