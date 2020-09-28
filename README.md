@@ -144,6 +144,7 @@ user@host$ ./scraper.py -a -f json
 * Sve firme imaju potpuno drugačiji prikaz tako se nisam ni trudio da skripta vrati neki ispis koji je ujednačene forme za sve. Naprimjer VIK ako ste u pretplati, stavi vam "-" minus ispred cifre dugovanja. Ili recimo Toplane Sarajevo stave neke napomene u polje gdje se nalazi tekst za stanje pa takve stvari nisam brisao. Potom, neke firme kao Logosoft, na stanje vam stave odmah i troskove cijelog trenutnog mjeseca. Tako da ste po prikazu stalno u minusu.  
 * Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno shvatiti smisao sadržaj ovih ispisa.
 * `config.py` je linkovan kao simbolički link u direktoriju `providers` kako bi se moduli u istom mogli i zasebno koristiti. Ex: `python3 bht.py`  
+* Ako slučajno bude nekih bug-ova i grešaka, molim vas da mi javite na vedran@nardev.org   
 
 
 ## KOD PISO':  
