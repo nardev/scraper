@@ -6,12 +6,10 @@ Scraper dohvaća podataka o vašim troškovima sa web stranica javnih i privatni
 
 
 ## Scraper README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](nardev.org)
-Za potrebe prikaza u Home Assistant-u, napravio sam nekoliko modula koji uz adekvatno konfigurisanje mogu jednostavno da dohvate stanje dugovanja, uplata a nekada i trenutne potrošnje za usluge. Moguće da se vođeno ovim primjerima skripti iz "providers/" može napraviti i još poneka skripta. Firme koje su meni bile ptorebne su već tu. Predpostavljam da bi u Kantonu Sarajevo odgovaralo da tu bude još i "OKI" i recimo "Sarajevo Stan" ali oni jednostavno nemaju pregled dugovanja online. Takođe, za sada nisam uspio bolje pogledati web sajt "Telemach"-a kao ni "BH Telecom" usluge za "MojuTV", "Fiksni Telefon" i "ADSL" priključak. Za sada uspješno "skrejpamo" samo "BH Telecom mobilnu.  
-Sve firme imaju potpuno drugačiji prikaz tako se nisam ni trudio da skripta vrati neki ispis koji je ujednačene forme za sve. Naprimjer VIK ako ste u pretplati, stavi vam "-" minus ispred cifre dugovanja. Ili recimo Toplane Sarajevo stave neke napomene u polje gdje se nalazi tekst za stanje pa takve stvari nisam brisao. Potom, neke firme kao Logosoft, na stanje vam stave odmah i troskove cijelog trenutnog mjeseca. Tako da ste po prikazu stalno u minusu.  
-Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno shvatiti smisao sadržaj ovih ispisa.
+* Za potrebe prikaza u Home Assistant-u, napravio sam nekoliko modula koji uz adekvatno konfigurisanje mogu jednostavno da dohvate stanje dugovanja, uplata a nekada i trenutne potrošnje za usluge.
 
 
-## Providers
+## PROVIDERS
 ---
 > Ovo je bezvezan naziv za firme. Da bi uspješno dobili potrebne podatke koji su vam potrebni za ovu skriptu, slijedite naredne savjete. Takođe, u `config.py` fajlu je moguće dobiti dodatne opise za podatke.
 
@@ -22,7 +20,7 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * Prema uputama u `config.py` upisati svoj broj telefona, u skraćenoj (ex: 061123456) i proširenoj (38761123456) formi kao i password.
 * Skrejpanje trenutno uspješno radi samo za pregled mobilne telefonije, ako neko napravi za ostale usluge, rado ću dodati i to.
 
-#### Elektroprivreda d.d. BiH
+#### ELEKTROPRIVREDA D.D. BIH
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/epbih.jpg" align="right" />  
   
 * Za registraciju slijediti upute ovdje: <a href="https://www.epbih.ba/register" target="_blank">https://www.epbih.ba/register</a>
@@ -30,7 +28,7 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * Iako je moguce dodati više mjesta koja pratite, ova skripta će samo "skrejpati" podatke za prvo koje se pojavi na listi.
 
 
-#### KJKP Rad d.o.o. Sarajevo
+#### KJKP RAD D.O.O. SARAJEVO
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/kjkprad.jpg" align="right" /> 
   
 * Aktivirati nalog prema uputama: <a href="https://moj.bhtelecom.ba/registracija" target="_blank">http://www.rad.com.ba/naplatna1.htm</a>
@@ -38,7 +36,7 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * Samo za PRVI pristup sistemu Lozinka je Referenca sa računa.
 * Nakon toga, unese te vašu lozinku i nju koristite u `config.py`
 
-#### Logosoft d.o.o. Sarajevo
+#### LOGOSOFT D.O.O. SARAJEVO
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/lol.jpg" align="right" />  
 
 * Login na naslovnoj stranici ovdje: <a href="http://www.lol.ba" target="_blank">http://www.lol.ba</a>
@@ -46,7 +44,7 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * Pošto je moguće imati više ugovora na jedno ime, potrebno je u `config.py` dodati i broj ugovora.  
 * Nakon manuelnog logina, na lijevoj strani je zeleni box u kojem jasno, bold slovima stoji broj ugovora (ex: 12345-02-SA/19)  
   
-#### KJKP "Sarajevo Gas" d.o.o.
+#### KJKP "SARAJEVO GAS" D.O.O.
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/sagas.jpg" align="right" />  
   
 * Web za provjeru računa: <a href="https://www.sarajevogas.ba/provjeraracuna" target="_blank">https://www.sarajevogas.ba/provjeraracuna</a>
@@ -55,13 +53,13 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * !!! VAŽNO !!! Prilikom unosa imena korisnika u `config.py` potrebno je kucati u formatu "PREZIME IME" te pritom naše karaktere zamijeniti uobičajenim zamjenama.
 
 
-#### KJKP Toplane Sarajevo  
+#### KJKP TOPLANE SARAJEVO  
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/tsa.jpg" align="right" />  
   
 * Provjera stanja računa je inače ovdje: <a href="http://www.toplanesarajevo.ba/korisnici/stanje-racuna" target="_blank">http://www.toplanesarajevo.ba/korisnici/stanje-racuna</a>
 * Nije potreban nikakav login, dovoljna je samo šifra korisnika sa računa!  
   
-#### Vodovod i Kanalizacija Sarajevo  
+#### VODOVOD I KANALIZACIJA SARAJEVO  
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/vik.jpg" align="right" />  
   
 * Potrebno prvo izvršiti registraciju.
@@ -69,7 +67,7 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * Tek nakon registracije se dodaje mjerno mjesto u vaš nalog.  
 * Iako je moguće imati više mjernih mjesta, ova skripta prati samo prvo na listi!  
 
-#### Telemach d.o.o. Sarajevo  
+#### TELEMACH D.O.O. SARAJEVO  
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/tmch.jpg" align="right" />  
   
 * Login je prilično atipičan. Pokušat ću neku drugi put da pripremim i ovaj "skrejper".  
@@ -78,7 +76,7 @@ Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno 
 * Lozinku ćete takodje odabrati prilikom registracije!  
 
 
-## How to use this shit:
+## HOW TO USE THIS SHIT:
 
 * Kloniranje Repozitorija lokalno i instalacija potrebnih modula i biblioteka: `gti clone git@github.com:nardev/scraper.git`  
 
@@ -98,7 +96,7 @@ user@host$ ./scraper.py
 
 * Skripta daje dva osnovna formata ispisa `json` koji je ujedno i defaultni te `table`.
 
-#### Primjeri i Opcije:
+#### PRIMJERI I OPCIJE:
 
 * Osnovni ispis, skripta po defaultu pravi request za svakog provajdera koji je u `config.py` te vraća jedan json u kojem su svi pdoatci. Taj json nije formatiran!  
   
@@ -106,7 +104,7 @@ user@host$ ./scraper.py
 user@host$ ./scraper.py
 ```  
   
-##### Opcije  
+##### OPCIJE  
 
 * Opcija `-a` ili `--fetch-all` pokušava dohvatiti podatke za sve setovane postavke u `config.py`  
 
@@ -114,7 +112,7 @@ user@host$ ./scraper.py
   
 * Opcija `-f` uz opcije `['json', 'table']` formatira ispis u json ili tabelu.  
   
-###### Primjeri
+###### PRIMJERI
 
 ---
 ```bash
@@ -138,8 +136,14 @@ user@host$ ./scraper.py -a -f json
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/preview03.png" width="400" />
 
 
+#### NAPOMENE
+* Moguće da se vođeno ovim primjerima skripti iz "providers/" može napraviti i još poneka skripta. Firme koje su meni bile ptorebne su već tu. Predpostavljam da bi u Kantonu Sarajevo odgovaralo da tu bude još i "OKI" i recimo "Sarajevo Stan" ali oni jednostavno nemaju pregled dugovanja online. Takođe, za sada nisam uspio bolje pogledati web sajt "Telemach"-a kao ni "BH Telecom" usluge za "MojuTV", "Fiksni Telefon" i "ADSL" priključak. Za sada uspješno "skrejpamo" samo "BH Telecom mobilnu.  
+* Sve firme imaju potpuno drugačiji prikaz tako se nisam ni trudio da skripta vrati neki ispis koji je ujednačene forme za sve. Naprimjer VIK ako ste u pretplati, stavi vam "-" minus ispred cifre dugovanja. Ili recimo Toplane Sarajevo stave neke napomene u polje gdje se nalazi tekst za stanje pa takve stvari nisam brisao. Potom, neke firme kao Logosoft, na stanje vam stave odmah i troskove cijelog trenutnog mjeseca. Tako da ste po prikazu stalno u minusu.  
+* Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno shvatiti smisao sadržaj ovih ispisa.
 
 
-## Authors:  
+
+
+## KOD PISO':  
 @nardev  
 @gondzo
