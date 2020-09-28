@@ -140,8 +140,7 @@ user@host$ ./scraper.py -a -f json
 * Moguće da se vođeno ovim primjerima skripti iz "providers/" može napraviti i još poneka skripta. Firme koje su meni bile ptorebne su već tu. Predpostavljam da bi u Kantonu Sarajevo odgovaralo da tu bude još i "OKI" i recimo "Sarajevo Stan" ali oni jednostavno nemaju pregled dugovanja online. Takođe, za sada nisam uspio bolje pogledati web sajt "Telemach"-a kao ni "BH Telecom" usluge za "MojuTV", "Fiksni Telefon" i "ADSL" priključak. Za sada uspješno "skrejpamo" samo "BH Telecom mobilnu.  
 * Sve firme imaju potpuno drugačiji prikaz tako se nisam ni trudio da skripta vrati neki ispis koji je ujednačene forme za sve. Naprimjer VIK ako ste u pretplati, stavi vam "-" minus ispred cifre dugovanja. Ili recimo Toplane Sarajevo stave neke napomene u polje gdje se nalazi tekst za stanje pa takve stvari nisam brisao. Potom, neke firme kao Logosoft, na stanje vam stave odmah i troskove cijelog trenutnog mjeseca. Tako da ste po prikazu stalno u minusu.  
 * Smatram da ako ste se jednom ulogovali na željeni servis, može te jednostavno shvatiti smisao sadržaj ovih ispisa.
-
-
+* `config.py` je linkovan kao simbolički link u direktoriju `providers` kako bi se moduli u istom mogli i zasebno koristiti. Ex: `python3 bht.py`  
 
 
 ## KOD PISO':  
