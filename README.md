@@ -10,7 +10,6 @@ Za potrebe prikaza u Home Assistant-u, napravio sam nekoliko modula koji uz adek
 
 
 ## PROVIDERS
----
 > Ovo je bezvezan naziv za firme. Da bi uspješno dobili potrebne podatke koji su vam potrebni za ovu skriptu, slijedite naredne savjete. Takođe, u `config.py` fajlu je moguće dobiti dodatne opise za podatke.
 
 #### BH TELECOM
