@@ -112,9 +112,10 @@ user@host$ ./scraper.py
   
 * Opcija `-f` uz opcije `['json', 'table']` formatira ispis u json ili tabelu.  
   
-###### PRIMJERI
+##### PRIMJERI
 
 ---
+
 ```bash
 # Dohvatanje podataka za troskove "Vodovod i kanalizazciju" u formi tabele.
 user@host$ ./scraper.py -p vik -f table
@@ -135,6 +136,8 @@ user@host$ ./scraper.py -a -f json
 ```
 <img src="https://raw.githubusercontent.com/nardev/scraper/master/images/preview03.png" width="400" />
 
+
+---  
 
 #### NAPOMENE
 * Moguće da se vođeno ovim primjerima skripti iz "providers/" može napraviti i još poneka skripta. Firme koje su meni bile ptorebne su već tu. Predpostavljam da bi u Kantonu Sarajevo odgovaralo da tu bude još i "OKI" i recimo "Sarajevo Stan" ali oni jednostavno nemaju pregled dugovanja online. Takođe, za sada nisam uspio bolje pogledati web sajt "Telemach"-a kao ni "BH Telecom" usluge za "MojuTV", "Fiksni Telefon" i "ADSL" priključak. Za sada uspješno "skrejpamo" samo "BH Telecom mobilnu.  
