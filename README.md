@@ -95,7 +95,7 @@ user@host$ ./scraper.py
 
 * Skripta daje dva osnovna formata ispisa `json` koji je ujedno i defaultni te `table`.
 
-#### PRIMJERI I OPCIJE:
+## PRIMJERI I OPCIJE:
 
 * Osnovni ispis, skripta po defaultu pravi request za svakog provajdera koji je u `config.py` te vraća jedan json u kojem su svi pdoatci. Taj json nije formatiran!  
   
@@ -112,8 +112,6 @@ user@host$ ./scraper.py
 * Opcija `-f` uz opcije `['json', 'table']` formatira ispis u json ili tabelu.  
   
 ##### PRIMJERI
-
----
 
 ```bash
 # Dohvatanje podataka za troskove "Vodovod i kanalizazciju" u formi tabele.
