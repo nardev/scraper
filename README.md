@@ -2,7 +2,7 @@
 Scraper za dohvacanje podataka o vasim troskovima sa web stranica javnih i privatnih preduzeca u Kantonu Sarajevo.
 
 
-<a href="https://www.buymeacoffee.com/usci8e4yG" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" align="right" style="height: 40px" ></a>
+<a href="https://www.buymeacoffee.com/usci8e4yG" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" align="right" height="40" ></a>
 
 
 ## Scraper README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](nardev.org)
