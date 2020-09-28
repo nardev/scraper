@@ -5,7 +5,7 @@ Scraper dohvaća podataka o vašim troškovima sa web stranica javnih i privatni
 <a href="https://www.buymeacoffee.com/usci8e4yG" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="40" ></a>
 
 
-## Scraper README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](nardev.org)
+## What's Scrapet? [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](nardev.org)
 Za potrebe prikaza u Home Assistant-u, napravio sam nekoliko modula koji uz adekvatno konfigurisanje mogu jednostavno da dohvate stanje dugovanja, uplata a nekada i trenutne potrošnje za usluge.
 
 
