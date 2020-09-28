@@ -1,5 +1,5 @@
 # SCRAPER
-Scraper za dohvatanje podataka o vašim troškovima sa web stranica javnih i privatnih preduzeća u Kantonu Sarajevo.
+Scraper dohvaća podataka o vašim troškovima sa web stranica javnih i privatnih preduzeća u Kantonu Sarajevo.
 
 
 <a href="https://www.buymeacoffee.com/usci8e4yG" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="40" ></a>
