@@ -34,7 +34,7 @@ def fetch(credentials):
 
 def get_table_row(data):
     tabledata = []
-    provider = ' KJKP Toplane Sarajevo'
+    provider = 'KJKP Toplane Sarajevo'
 
     description = 'Korisnik: '+data['naziv_korisnika']+ \
         '\nAdresa: '+data['adresa']+ \
