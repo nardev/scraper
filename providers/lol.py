@@ -11,7 +11,8 @@ data = {
 
 def fetch(credentials):
     session_requests = requests.session()
-    url = "http://www.logosoft.ba/users/services/"
+    url = "https://www.logosoft.ba/users/services/"
+    #url = "https://www.logosoft.ba"
     
     # Get login csrf token
     result = session_requests.get(url)
