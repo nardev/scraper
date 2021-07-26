@@ -10,25 +10,17 @@ data = {
 }
 
 def fetch(credentials):
-    session_requests = requests.session()
     url = "https://www.logosoft.ba/users/services/"
-    #url = "https://www.logosoft.ba"
-    
-    # Get login csrf token
-    result = session_requests.get(url)
-    tree = html.fromstring(result.text)
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     payload = {
         "username": credentials['username'],
         "password": credentials['password']
     }
 
-    result = session_requests.post(url, data = payload, headers = dict(referer = url))
-    result = session_requests.get(url, headers = dict(referer = url))
+    result = requests.post(url, data=payload, headers=headers)
 
     soup = BeautifulSoup(result.content, 'html5lib')
-    # val = soup.body.find(id="mainContent_IznosiSvihUgovora").find_all('div')[-1].find_all('span')[0].get_text()
 
-    # box = soup.find(text="Potrošnja u paketu:").find_parent('div').find_all('div', class_='form-group')
     data['ime'] = soup.find(id="mainContent_nazivKorisnika").get_text().strip()
     data['adresa'] = soup.find(id="mainContent_adresaKorisnika").get_text().strip()
     data['stanje'] = soup.find('h3', class_='panel-title', text=credentials['contract']).parent()[2].get_text().strip()
